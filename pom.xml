@@ -5,13 +5,26 @@
 
     <groupId>com.didispace</groupId>
     <artifactId>SpringBoot-Learning</artifactId>
-    <version>2.0-SNAPSHOT</version>
-    <description>全网Star最多的Spring Boot基础教程</description>
+    <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>chapter1-1</module>
+        <!-- 第一章 -->
+        <module>Chapter1</module>
 
+        <!-- 第二章 -->
+        <!--<module>Chapter2-1-1</module>-->
+        <!--<module>Chapter2-1-2</module>-->
+        <!--<module>Chapter2-2-1</module>-->
+
+        <!-- 第三章 -->
+        <module>Chapter3-1-1</module>
+        <module>Chapter3-1-2</module>
+        <module>Chapter3-1-3</module>
+        <module>Chapter3-1-4</module>
+        <module>Chapter3-1-5</module>
+        <module>Chapter3-1-6</module>
+        <module>Chapter3-1-7</module>
+        <module>Chapter3-1-8</module>
     </modules>
-
 
 </project>
