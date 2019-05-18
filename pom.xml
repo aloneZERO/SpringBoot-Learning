@@ -4,13 +4,74 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.didispace</groupId>
-    <artifactId>SpringCloud-Learning</artifactId>
+    <artifactId>SpringBoot-Learning</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <modules>
-        <module>Chapter3-1-8</module>
+        <!-- 第一章 -->
+<!--        <module>Chapter1</module>-->
 
+        <!-- 第二章 -->
+<!--        <module>Chapter2-1-1</module>-->
+<!--        <module>Chapter2-1-2</module>-->
+<!--        <module>Chapter2-2-1</module>-->
+
+        <!-- 第三章 -->
+<!--        <module>Chapter3-1-1</module>-->
+<!--        <module>Chapter3-1-2</module>-->
+<!--        <module>Chapter3-1-3</module>-->
+<!--        <module>Chapter3-1-4</module>-->
+<!--        <module>Chapter3-1-5</module>-->
+<!--        <module>Chapter3-1-6</module>-->
+<!--        <module>Chapter3-1-7</module>-->
+<!--        <module>Chapter3-1-8</module>-->
+        <module>Chapter3-2-1</module>
+        <module>Chapter3-2-2</module>
+        <module>Chapter3-2-3</module>
+        <module>Chapter3-2-4</module>
+        <module>Chapter3-2-5</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <!-- 包括：junit、hamcrest、mockito -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
